@@ -16,8 +16,11 @@ Nous avons donc :
     Un bouton Stop permet d'arreter le programme.
     Une gestion d'erreur a été faite.
 
-Exo 3 : Bulleur
+Exo 3 : "Bulleur"
 L'objectif est de creer un Bulleur Numérique en fonction de l'axe Z.
 Voici comment nous avons imaginé le systeme : 
-    Une boucle While permettant la continuité de lecture des données.
+    Une boucle deterministe permettant la continuité de lecture des données avec l'activation des leds en fonction de l'angle détecté.
+    La boucle non déterministe est utilisée pour mettre à jour la valeur référence de l'angle lorsque l'on appui sur le bouton de la MyRio.
+    La communication entre les 2 boucles se fait via des variables partagées.
+    
       
